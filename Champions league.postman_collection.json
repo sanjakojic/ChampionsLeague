@@ -1,0 +1,114 @@
+{
+	"info": {
+		"_postman_id": "2de01755-43a5-4042-9a06-4362e46c339b",
+		"name": "Champions league",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CalculateStatisticsForResults",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"retrieveGroups\": \"\",\n\t\"data\":[\n    {\n        \"leagueTitle\": \"Champions league 2016/17\",\n        \"matchday\": 1,\n        \"group\": \"C\",\n        \"homeTeam\": \"CZV\",\n        \"awayTeam\": \"Chelsea\",\n        \"kickoffAt\": \"2017-11-30T20:45:00\",\n        \"score\": \"1:0\"\n    },\n    {\n        \"leagueTitle\": \"Champions league 2016/17\",\n        \"matchday\": 1,\n        \"group\": \"C\",\n        \"homeTeam\": \"PSV\",\n        \"awayTeam\": \"Roma\",\n        \"kickoffAt\": \"2017-11-30T20:45:00\",\n        \"score\": \"2:1\"\n    },\n    {\n        \"leagueTitle\": \"Champions league 2016/17\",\n        \"matchday\": 1,\n        \"group\": \"C\",\n        \"homeTeam\": \"Chelsea\",\n        \"awayTeam\": \"CZV\",\n        \"kickoffAt\": \"2017-12-05T20:45:00\",\n        \"score\": \"0:1\"\n    },\n    {\n        \"leagueTitle\": \"Champions league 2016/17\",\n        \"matchday\": 1,\n        \"group\": \"C\",\n        \"homeTeam\": \"Roma\",\n        \"awayTeam\": \"PSV\",\n        \"kickoffAt\": \"2017-12-05T20:45:00\",\n        \"score\": \"0:0\"\n    }\n ]\n}"
+				},
+				"url": {
+					"raw": "http://localhost:51429/api/GameScore/CalculateStatisticsForResults",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "51429",
+					"path": [
+						"api",
+						"GameScore",
+						"CalculateStatisticsForResults"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddNewOrUpdateScores",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"retrieveGroups\": \"A,B\",\n\t\"data\":[\n    {\n        \"leagueTitle\": \"Champions league 2016/17\",\n        \"matchday\": 1,\n        \"group\": \"A\",\n        \"homeTeam\": \"Ajax\",\n        \"awayTeam\": \"Milan\",\n        \"kickoffAt\": \"2017-11-03T20:45:00\",\n        \"score\": \"1:1\"\n    },\n     {\n        \"leagueTitle\": \"Champions league 2016/17\",\n        \"matchday\": 1,\n        \"group\": \"A\",\n        \"homeTeam\": \"PSV\",\n        \"awayTeam\": \"Barcelona\",\n        \"kickoffAt\": \"2017-11-03T20:45:00\",\n        \"score\": \"3:1\"\n    },\n     {\n        \"leagueTitle\": \"Champions league 2016/17\",\n        \"matchday\": 1,\n        \"group\": \"B\",\n        \"homeTeam\": \"CZV\",\n        \"awayTeam\": \"Basel\",\n        \"kickoffAt\": \"2017-11-10T20:45:00\",\n        \"score\": \"3:0\"\n    },\n    {\n        \"leagueTitle\": \"Champions league 2016/17\",\n        \"matchday\": 1,\n        \"group\": \"B\",\n        \"homeTeam\": \"Manchester United\",\n        \"awayTeam\": \"Arsenal\",\n        \"kickoffAt\": \"2017-11-10T20:45:00\",\n        \"score\": \"0:0\"\n    }\n]\n}"
+				},
+				"url": {
+					"raw": "http://localhost:51429/api/GameScore/AddNewOrUpdateScores",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "51429",
+					"path": [
+						"api",
+						"GameScore",
+						"AddNewOrUpdateScores"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FilterData",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"dateFrom\": \"2017-09-10\",\n\t\"dateTo\": \"2017-10-25\",\n\t\"group\" : \"\",\n\t\"teamName\":\"\",\n\t\"data\":[\n    {\n        \"leagueTitle\": \"Champions league 2016/17\",\n        \"matchday\": 1,\n        \"group\": \"A\",\n        \"homeTeam\": \"PSG\",\n        \"awayTeam\": \"Arsenal\",\n        \"kickoffAt\": \"2017-09-13T20:45:00\",\n        \"score\": \"1:1\"\n    },\n    {\n        \"leagueTitle\": \"Champions league 2016/17\",\n        \"matchday\": 1,\n        \"group\": \"A\",\n        \"homeTeam\": \"Basel\",\n        \"awayTeam\": \"Ludogorets\",\n        \"kickoffAt\": \"2017-09-13T20:45:00\",\n        \"score\": \"1:1\"\n    },\n    {\n        \"leagueTitle\": \"Champions league 2016/17\",\n        \"matchday\": 1,\n        \"group\": \"B\",\n        \"homeTeam\": \"Ajax\",\n        \"awayTeam\": \"CZV\",\n        \"kickoffAt\": \"2017-09-14T20:45:00\",\n        \"score\": \"0:5\"\n    },\n    {\n        \"leagueTitle\": \"Champions league 2016/17\",\n        \"matchday\": 1,\n        \"group\": \"B\",\n        \"homeTeam\": \"PSV\",\n        \"awayTeam\": \"Ajax\",\n        \"kickoffAt\": \"2017-09-15T20:45:00\",\n        \"score\": \"4:1\"\n    },\n    {\n        \"leagueTitle\": \"Champions league 2016/17\",\n        \"matchday\": 2,\n        \"group\": \"C\",\n        \"homeTeam\": \"Partizan\",\n        \"awayTeam\": \"Milan\",\n        \"kickoffAt\": \"2017-10-18T20:45:00\",\n        \"score\": \"2:0\"\n    },\n    {\n        \"leagueTitle\": \"Champions league 2016/17\",\n        \"matchday\": 2,\n        \"group\": \"A\",\n        \"homeTeam\": \"Ludogorets\",\n        \"awayTeam\": \"PSG\",\n        \"kickoffAt\": \"2017-10-18T20:45:00\",\n        \"score\": \"1:3\"\n    },\n    {\n        \"leagueTitle\": \"Champions league 2016/17\",\n        \"matchday\": 1,\n        \"group\": \"C\",\n        \"homeTeam\": \"Partizan\",\n        \"awayTeam\": \"Hajduk\",\n        \"kickoffAt\": \"2017-10-19T20:45:00\",\n        \"score\": \"6:0\"\n    }\n]\n}"
+				},
+				"url": {
+					"raw": "http://localhost:51429/api/GameScore/FilterData",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "51429",
+					"path": [
+						"api",
+						"GameScore",
+						"FilterData"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

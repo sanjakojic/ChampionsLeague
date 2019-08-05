@@ -1,0 +1,16 @@
+C:\Users\sanja.kojic\Documents\Visual Studio 2017\Projects\ChampionsLeague16\ChampionsLeague16\bin\Debug\netcoreapp2.1\ChampionsLeague16.deps.json
+C:\Users\sanja.kojic\Documents\Visual Studio 2017\Projects\ChampionsLeague16\ChampionsLeague16\bin\Debug\netcoreapp2.1\ChampionsLeague16.runtimeconfig.json
+C:\Users\sanja.kojic\Documents\Visual Studio 2017\Projects\ChampionsLeague16\ChampionsLeague16\bin\Debug\netcoreapp2.1\ChampionsLeague16.runtimeconfig.dev.json
+C:\Users\sanja.kojic\Documents\Visual Studio 2017\Projects\ChampionsLeague16\ChampionsLeague16\bin\Debug\netcoreapp2.1\ChampionsLeague16.dll
+C:\Users\sanja.kojic\Documents\Visual Studio 2017\Projects\ChampionsLeague16\ChampionsLeague16\obj\Debug\netcoreapp2.1\ChampionsLeague16.csprojAssemblyReference.cache
+C:\Users\sanja.kojic\Documents\Visual Studio 2017\Projects\ChampionsLeague16\ChampionsLeague16\obj\Debug\netcoreapp2.1\ChampionsLeague16.csproj.CoreCompileInputs.cache
+C:\Users\sanja.kojic\Documents\Visual Studio 2017\Projects\ChampionsLeague16\ChampionsLeague16\obj\Debug\netcoreapp2.1\ChampionsLeague16.RazorAssemblyInfo.cache
+C:\Users\sanja.kojic\Documents\Visual Studio 2017\Projects\ChampionsLeague16\ChampionsLeague16\obj\Debug\netcoreapp2.1\ChampionsLeague16.RazorAssemblyInfo.cs
+C:\Users\sanja.kojic\Documents\Visual Studio 2017\Projects\ChampionsLeague16\ChampionsLeague16\obj\Debug\netcoreapp2.1\ChampionsLeague16.AssemblyInfoInputs.cache
+C:\Users\sanja.kojic\Documents\Visual Studio 2017\Projects\ChampionsLeague16\ChampionsLeague16\obj\Debug\netcoreapp2.1\ChampionsLeague16.AssemblyInfo.cs
+C:\Users\sanja.kojic\Documents\Visual Studio 2017\Projects\ChampionsLeague16\ChampionsLeague16\obj\Debug\netcoreapp2.1\ChampionsLeague16.RazorTargetAssemblyInfo.cache
+C:\Users\sanja.kojic\Documents\Visual Studio 2017\Projects\ChampionsLeague16\ChampionsLeague16\bin\Debug\netcoreapp2.1\ChampionsLeague16.pdb
+C:\Users\sanja.kojic\Documents\Visual Studio 2017\Projects\ChampionsLeague16\ChampionsLeague16\bin\Debug\netcoreapp2.1\ChampionsLeague16.Views.dll
+C:\Users\sanja.kojic\Documents\Visual Studio 2017\Projects\ChampionsLeague16\ChampionsLeague16\obj\Debug\netcoreapp2.1\ChampionsLeague16.dll
+C:\Users\sanja.kojic\Documents\Visual Studio 2017\Projects\ChampionsLeague16\ChampionsLeague16\obj\Debug\netcoreapp2.1\ChampionsLeague16.pdb
+C:\Users\sanja.kojic\Documents\Visual Studio 2017\Projects\ChampionsLeague16\ChampionsLeague16\obj\Debug\netcoreapp2.1\ChampionsLeague16.csproj.CopyComplete
